@@ -1,0 +1,267 @@
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.menu {
+    display: none;
+    margin: 20px;
+}
+
+.menu p {
+    font-size: 17px;
+}
+
+#logo {
+    width: auto;
+    height: 77px;
+    max-width: 167px;
+}
+
+#home-title-section {
+    margin-top: 50px;
+}
+
+#home-title {
+    margin-left: 40px;
+    font-size: 70px;
+}
+
+#home-subtitle {
+    margin-left: 40px;
+    margin-bottom: -60px;
+    font-size: 25px;
+}
+
+#main-image {
+    max-width: 1125px;
+    max-height: 750px;
+}
+
+#about-us-section {
+    padding: 30px;
+    background-color: #36AC27;
+    margin-top: 200px;
+    width: 97%;
+    text-align: center;
+}
+
+#about-us-title {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+#about-us-subtitle {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#about-us-description {
+    font-size: 25px;
+    justify-content: start;
+    margin-bottom: 70px;
+}
+
+#my-story-section {
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+
+#my-story-title {
+    margin-left: 40px;
+    font-size: 70px;
+    margin-bottom: -10px;
+}
+
+#my-story-subtitle {
+    margin-left: 40px;
+    margin-bottom: -60px;
+    font-size: 25px;
+    max-width: 700px;
+}
+
+#main-image1 {
+    margin-top: -300px;
+    margin-left: 1100px;
+}
+
+#main-image2 {
+    margin-top: -300px;
+    margin-left: 1100px;
+}
+
+footer {
+    padding: 30px;
+    background-color: #36AC27;
+}
+
+#footer-text {
+    font-size: 23px;
+    text-align: center;
+}
+
+#main-title {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#news-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+#main-story {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+#main-image {
+    width: 800px;
+    height: 475px;
+}
+
+#main-content {
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+#story-list {
+    width: 28%;
+    max-height: none;
+    overflow-y: visible;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.side-story-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+.side-story-item:hover {
+    cursor: pointer;
+}
+
+.side-story-item img {
+    width: 600px;
+    height: 338px;
+    object-fit: cover;
+}
+
+.side-story-item p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.side-story-image {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.side-story-title {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#selection-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #36AC27;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#leagueImage {
+    width: 37px;
+    height: 37px;
+    padding: 1px;
+    object-fit: contain;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    margin-left: -10px;
+    margin-right: 5px;
+}
+
+#matches-menu {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#upcoming-matches {
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#options {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    padding: 8px;
+    font-size: 19px;
+    font-weight: 500;
+    border-style: none;
+}
+
+label {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#matches-selection {
+    margin-top: -10px;
+    background-color: lightgray;
+}
+
+#option2Content {
+    display: block;
+    visibility: visible;
+}
