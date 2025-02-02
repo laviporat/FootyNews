@@ -150,3 +150,46 @@ window.onload = function () {
     }
 };
 
+function updateContentLeaderboards() {
+    const selectedOption = document.getElementById("optionsL").value;
+    const contents = document.querySelectorAll(".contentL");
+    const imgTag = document.getElementById("leagueImageL");
+
+    const images = {
+        option1: "ChampionsLeagueLogo.svg",
+        option2: "PremierLeague.webp",
+        option3: "LaLiga.png",
+        option4: "SerieA.jpg",
+        option5: "BundesLiga.png",
+        option6: "Ligue1.png",
+    };
+
+    contents.forEach(content => {
+        content.style.display = "none";
+    });
+
+    const selectedContent = document.getElementById(selectedOption + "ContentL");
+    if (selectedContent) {
+        selectedContent.style.display = "block";
+    }
+
+    if (imgTag && images[selectedOption]) {
+        imgTag.src = images[selectedOption];
+    }
+}
+
+window.onload = function () {
+    document.querySelectorAll(".contentL").forEach(content => {
+        content.style.display = "none";
+    });
+
+    const defaultContent = document.getElementById("option1ContentL");
+    if (defaultContent) {
+        defaultContent.style.display = "block";
+    }
+
+    const imgTag = document.getElementById("leagueImage");
+    if (imgTag) {
+        imgTag.src = "ChampionsLeagueLogo.svg";
+    }
+};

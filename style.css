@@ -227,7 +227,25 @@ footer {
     margin-right: 5px;
 }
 
+#leagueImageL {
+    width: 37px;
+    height: 37px;
+    padding: 1px;
+    object-fit: contain;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    margin-left: -10px;
+    margin-right: 5px;
+}
+
 #matches-menu {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#leaderboard-menu {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -249,7 +267,15 @@ footer {
     border-style: none;
 }
 
-#options_label {}
+#optionsL {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    padding: 8px;
+    font-size: 19px;
+    font-weight: 500;
+    border-style: none;
+}
 
 label {
     margin-top: auto;
@@ -261,9 +287,4 @@ label {
 #matches-selection {
     margin-top: -10px;
     background-color: #D9D9D9;
-}
-
-#option2Content {
-    display: block;
-    visibility: visible;
 }
